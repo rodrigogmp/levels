@@ -27,3 +27,13 @@ needs to be maintained.
 * When finished, simply zip the project and send it via e-mail.
 
 Good luck!
+
+## New Features
+
+*  I've implemented privileges feature, that is associated to levels. How each user has a level, according with their experience, oce they reach any level, user automatically receives this level privileges
+
+* Além do privilégio da redução de taxas, também foram implementados outros dois: ganho de moedas extras e aumento da quantidade de modelos 3d disponívels
+ Obs: Outros privilégios podem ser implementados facilmente, basta adicionar novos itens dentro do enum "kind", no model privilege.
+
+
+ I've implemented privileges feature, that is associated to levels. How each user has a level, according with their experience, oce they reach any level, user automatically receives this level privileges
