@@ -28,12 +28,14 @@ needs to be maintained.
 
 Good luck!
 
-## New Features
+## Solution
 
-*  I've implemented privileges feature, that is associated to levels. How each user has a level, according with their experience, oce they reach any level, user automatically receives this level privileges
+*  I've implemented privileges feature, that is associated to levels. How each user has a level, according with their experience, oce they reach any level, user automatically receives this level privileges.
 
-* Além do privilégio da redução de taxas, também foram implementados outros dois: ganho de moedas extras e aumento da quantidade de modelos 3d disponívels
- Obs: Outros privilégios podem ser implementados facilmente, basta adicionar novos itens dentro do enum "kind", no model privilege.
+* In addition to the fee reduction privilege, two others have also been implemented: earning extra coins and increasing the amount of available 3d models
+  Note: Other privileges can be implemented easily, just add new items inside the enum "kind", in the model privilege.
 
+* I had to use the following command line to run the tests: rspec spec/spec_helper.rb spec/, otherwise my database woudn't initiated, I coudn't figure out why.
 
- I've implemented privileges feature, that is associated to levels. How each user has a level, according with their experience, oce they reach any level, user automatically receives this level privileges
+* For some reason, the model lib/cgtrader_levels/models/user.rb was not found by simplecov, that's why it doesn't appear inside the converage/index.html file, despite that, I've tried to write tests to cover all the possible use cases.
+
