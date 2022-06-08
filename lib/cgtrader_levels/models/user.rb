@@ -1,4 +1,3 @@
-# require 'cgtrader_levels'
 require 'active_record'
 
 class CgtraderLevels::User < ActiveRecord::Base
