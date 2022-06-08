@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = CgtraderLevels::VERSION
   spec.authors       = ["Vilius Luneckas"]
   spec.email         = ["vilius.luneckas@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{FART: Write a short summary. Required.}
+  spec.description   = %q{FART: Write a longer description. Optional.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
